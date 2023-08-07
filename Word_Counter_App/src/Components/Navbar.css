@@ -1,0 +1,46 @@
+.toggle_btn {
+  position: absolute;
+  right: 11rem;
+  width: 38px;
+  /* height: 16px; */
+  border-radius: 0.9rem;
+  background: #5e5e5e;
+  padding: 0.2rem 0.2rem;
+}
+.toggle_btn span {
+  position: absolute;
+  padding: 9px 9px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.toggle_btn span.dark_on {
+  margin-left: 0.8rem;
+}
+
+.mode {
+  position: absolute;
+  right: -160px;
+}
+
+.color_palets {
+  position: relative;
+  right: 15rem;
+}
+
+.colors {
+  position: relative;
+  padding: 0.2rem 0.9rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#hotpink {
+  background-color: hotpink;
+}

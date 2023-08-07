@@ -1,0 +1,36 @@
+.Resume_container {
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+}
+
+.Resume_head {
+  margin-top: 1rem;
+}
+
+.Resume_head span {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading span {
+  position: absolute;
+  background: #000;
+  padding: 1rem 1rem;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.heading span.dark {
+  background: #fff;
+}
+
+.Resume_container.dark {
+  background: #000;
+  color: #fff;
+}
