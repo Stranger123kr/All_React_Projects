@@ -1,0 +1,25 @@
+.form_container {
+  padding: 1rem;
+}
+
+.LightMode {
+  box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.8);
+}
+
+.DarkMode {
+  box-shadow: 0 0 0.2rem 0 rgba(255, 255, 255, 0.5);
+}
+
+form {
+  display: block;
+}
+input {
+  width: 100%;
+  background: #fff;
+  border: none;
+  outline: none;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.LightMode {
+  background: #ccc;
+}
+
+.DarkMode {
+  background: #333;
+}
+
+/* ======================= This is a scroll bar ======================= */
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(165, 165, 255);
+  border-radius: 2rem;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.flex {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 2rem 3rem;
+}
+
+img,
+a,
+button {
+  cursor: pointer;
+}
+
+/*------------------------ media query-----------------*/
+
+@media (max-width: 576px) {
+  .flex {
+    padding: 2rem 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  button:hover {
+    background: #fff;
+    color: #000;
+  }
+}
